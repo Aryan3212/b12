@@ -20,9 +20,9 @@ def main():
     action_run_link = f"{repository_link}/actions/runs/{run_id}"
     
     # Resume filename found in the repo
-    resume_filename = "aryan rahman resume.md"
+    resume_filename = "Aryan Rahman Resume 2026.pdf"
     # Assuming main branch, we encode the filename for the URL
-    resume_link = f"https://github.com/Aryan3212/b12/blob/main/aryan%20rahman%20resume.md"
+    resume_link = "https://github.com/Aryan3212/b12/blob/main/Aryan%20Rahman%20Resume%202026.pdf"
 
     # Current ISO 8601 timestamp in UTC
     timestamp = datetime.now(timezone.utc).isoformat(timespec='milliseconds').replace("+00:00", "Z")
